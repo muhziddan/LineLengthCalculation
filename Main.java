@@ -38,6 +38,6 @@ public class Main {
         y2 = reader.nextInt();
         CalculateDistance calculateDistance = new CalculateDistance(x1, x2, y1, y2);
         result = calculateDistance.calculateDistanceBetweenPoints();
-        System.out.print("Result: " + result);
+        System.out.print("Length of line: " + result);
     }
 }

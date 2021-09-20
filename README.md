@@ -1,15 +1,13 @@
 ## Porblem Description:
 
-as a fan of geometry, i want to model a line based on points consisting of x and y coordinates plane based on cartecian system. so that i can calculate its length.
+There is a client who is a fan of geometry, the client want to model a line based on points consisting of x and y coordinates plane based on cartesian system so that he can calculate it's length.
 
 ## Dev Environment Setup:
-
-
-## Pre-requisite :
-- Have a Replit account
-- have four input for the line coordinates (X1, Y1, X2, Y2)
-- give the result to users.
-
+- for replit environment: <br>
+-> sign up for replit account -> make a project
+- for IDE environment (Intellij IDEA): <br>
+-> Download and install Intellij IDE (you can download and follow the step from https://www.jetbrains.com/idea/download/#section=mac)
+-> Download and install JDK (ou can download and follow the step from https://www.jetbrains.com/help/idea/installation-guide.html#standalone)
 
 ## How to run test:
 - for replit environment: <br>
@@ -19,6 +17,10 @@ click Run tests -> if test passed, it will turn to green.
 after clone this project, make sure you move test/CalculatelengthTest.java file to correct package -> make sure you have JUNIT libary -> run the test -> if test passed, it will turn to green.
 
 ## Build Instruction: 
+- for replit environment: <br>
+you don't need to build the project, just run the Main.java file
+- for IDE environment: <br>
+you can make your own project and then copy 
 
 ## Run Instruction: 
 - for replit environment: <br>

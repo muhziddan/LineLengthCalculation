@@ -6,3 +6,4 @@ public void lineLengthTest() {
     double y2 = 1;
   
     CalculateDistance calculateDistance = new CalculateDistance(x1, x2, y1, y2);
+}
