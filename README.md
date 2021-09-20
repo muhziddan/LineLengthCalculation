@@ -14,7 +14,7 @@ There is a client who is a fan of geometry, the client want to model a line base
 open unit test icon (check icon) on the left side ->
 click Run tests -> if test passed, it will turn to green.
 - for IDE environment: <br>
-after clone this project, make sure you move test/CalculatelengthTest.java file to correct package -> make sure you have JUNIT libary -> run the test -> if test passed, it will turn to green.
+after clone this project, make sure you copy test code from test tab to correct package in your test package on your local repository -> make sure you have JUNIT libary -> run the test -> if test passed, it will turn to green.
 
 ## Build Instruction: 
 - for replit environment: <br>

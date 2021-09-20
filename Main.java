@@ -25,19 +25,22 @@ public class Main {
         int y1;
         int x2;
         int y2;
-        double result;
+        int result;
+
         System.out.println("Please input coordinate for start of line");
         System.out.print("X1: ");
         x1 = reader.nextInt();
         System.out.print("Y1: ");
         y1 = reader.nextInt();
+
         System.out.println("Please input coordinate for end of line");
         System.out.print("X2: ");
         x2 = reader.nextInt();
         System.out.print("Y2: ");
         y2 = reader.nextInt();
+        
         CalculateDistance calculateDistance = new CalculateDistance(x1, x2, y1, y2);
-        result = calculateDistance.calculateDistanceBetweenPoints();
+        result = (int)calculateDistance.calculateDistanceBetweenPoints();
         System.out.print("Length of line: " + result);
     }
 }
